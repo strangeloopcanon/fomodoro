@@ -10,8 +10,10 @@ It's like what people talk about with AGI. The last invention you'd ever need!
 
 # how to run fomodoro
 There are 2 options now
-1. On the cloud - you can get a Replicate token, set it in your .env file, and use this
-2. On your device - you can download Ollama, run 'ollama run mistral' and 'ollama run llava' to get the models, start your server with 'OLLAMA_HOST=0.0.0.0:11434 ollama serve', and off you go
+1. Use Python 3.10 or newer
+2. Install dependencies with `pip install -r requirements.txt`
+3. On the cloud - you can get a Replicate token, set it in your .env file, and use this
+4. On your device - you can download Ollama, run 'ollama run mistral' and 'ollama run llava' to get the models, start your server with 'OLLAMA_HOST=0.0.0.0:11434 ollama serve', and off you go
 
 # what does it do
 It takes a screenshot of your screen every 15 minutes, checks against a todo list that exists in the same folder as a txt file, and if you're not on task shows a popup telling you to get back to work.
